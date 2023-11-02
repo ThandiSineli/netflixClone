@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <style>
+body{
+    background-color: black;
+    align-items: center;
+}
+main{
+    display: flex;
+}
+nav {
+    background-color: black;
+}
+.navbar {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Display the list items horizontally */
+}
+.navbar li {
+    margin: 0 40px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #635e5e;
+    font-weight: bold;
+}
+.navbar a:hover {
+    color: red;
+}
+.logo-container{
+    margin-right: 20px;
+}
+.logo{
+    width: 100px;
+       }
+    .Search-Container {
+         display: flex;
+         align-items: center;
+         transform: translateX(400px);
+        }
+         .search-bar {
+            padding: 5px;
+            font-size: 14px;
+           width: 150px;
+        }
+     .search-button {
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+     }
+        h1 {
+          font-size: 50px;
+           color: rgb(169, 165, 165);
+           text-align: left;
+           margin: 10px 0;
+           }
+           h1:hover {
+               color: red;
+            }
+      .image-grid {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+          }
+       .image-grid img {
+               width: 250px ;
+               height: 200px;
+             margin: 0 10px;
+               }
+        </style>
+      </head>
+         <body>
+           <main>
+            <nav>
+                <ul class="navbar">
+                    <div class="logo container">
+                        <a href="/index2.html"><img src="/Img/hamburger menu1.jpg" class="logo" alt="hamburgermenu Logo"></a>
+                    </div>
+                    <li><a href="/index2.html"><img src="/Img/netflix logo.jpg"></a></li>
+                    <div class="Search-Container">
+                        <input id="input" type="text" class="search-bar" placeholder="Search...">
+                        <button id="button" type="submit" class="search-button">
+                            <span class="search-icon"></span> Search
+                        </button>
+                    </div>
+                </ul>
+            </nav>
+            
+      </main>
+        <div class="image-container">
+           <section>
+            <h1>My list</h1>
+            <div class="image-grid">
+                <a href="https://youtu.be/XuDwndGaCFo"><img src="/Img/HeartOfStone.jpg" alt="My list"></a>
+                <a href="https://youtu.be/iGKnI3Lc7C4"> <img src="/Img/youngSheldon.jpg" alt="my list"></a>
+                <a href="https://www.youtube.com/watch?v=n4tjqqGgky8&pp=ygUUcGVyZmVjdCBmaW5kIHRyYWlsZXI%3"><img src="/Img/perfectfind.jpg" alt=""></a>
+                <a href="https://www.bing.com/ck/a?!&&p=feb238813269c059JmltdHM9MTY5ODYyNDAwMCZpZ3VpZD0wZWVjYmIxYS0zMTYwLTY3NzEtMzFkOC1hODg1MzBmYjY2OGImaW5zaWQ9NjAxMA&ptn=3&hsh=3&fclid=0eecbb1a-3160-6771-31d8-a88530fb668b&psq=lupin&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1nYTBpVFdYQ0dhMA&ntb=1"><img src="/Img/lupin.jpg" alt="Mylist"></a>
+                <a href="https://www.bing.com/ck/a?!&&p=51a4729c3b836ae3JmltdHM9MTY5ODYyNDAwMCZpZ3VpZD0wZWVjYmIxYS0zMTYwLTY3NzEtMzFkOC1hODg1MzBmYjY2OGImaW5zaWQ9NjMwOA&ptn=3&hsh=3&fclid=0eecbb1a-3160-6771-31d8-a88530fb668b&psq=manifest&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1JMWhOQUl6a1FXWQ&ntb=1"> <img src="/img/manifest.jpg" alt="my list"></a>
+            </div>
+        </section>
+        <section>
+            <h1>Award-Winning TV Shows</h1>
+            <div class="image-grid">
+                <a href="https://www.youtube.com/watch?v=-WYdUaK54fU&pp=ygURYmxhY2tsaXN0IHRyYWlsZXI%3D"><img src="/Img/Blacklist.jpg" alt="award-winning"></a>
+                <a href="https://youtu.be/4fkJ7aQ4eLo"><img src="/Img/bigbangtheory.jpg" alt="award-winning"></a>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?&q=brooklyn+nine-nine&&mid=43E72832501340524B0B43E72832501340524B0B&&FORM=VRDGAR"><img src="/Img/Brooklyn.jpg" alt="award-winning"></a>
+                <a href="https://www.bing.com/ck/a?!&&p=9e170019f3237d92JmltdHM9MTY5ODYyNDAwMCZpZ3VpZD0wZWVjYmIxYS0zMTYwLTY3NzEtMzFkOC1hODg1MzBmYjY2OGImaW5zaWQ9NTkzMQ&ptn=3&hsh=3&fclid=0eecbb1a-3160-6771-31d8-a88530fb668b&psq=money+heist&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1fSW5xUUpScUdXNA&ntb=1"><img src="/Img/Moneyheist.jpg" alt="award-winning"></a>
+                <a href="https://youtu.be/IEEbUzffzrk"><img src="/Img/Friends.jpg" alt="action movies"></a>
+            </div>
+        </section>
+        <section>
+            <h1>Continue Watching for Thandeka</h1>
+            <div class="image-grid">
+                <a href="https://www.bing.com/ck/a?!&&p=d28424fe4bf7c725JmltdHM9MTY5ODYyNDAwMCZpZ3VpZD0wZWVjYmIxYS0zMTYwLTY3NzEtMzFkOC1hODg1MzBmYjY2OGImaW5zaWQ9NjAwNw&ptn=3&hsh=3&fclid=0eecbb1a-3160-6771-31d8-a88530fb668b&psq=the+gray+man&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1CbWxsZ2dHTzRwTQ&ntb=1"><img src="/Img/                                                                                                                                                                                                                                                                                                                                                                    " alt="cartoons"></a>
+                <a href="/vidoes/Courage The Cowardly Dog.mp4"><img src="https://i.postimg.cc/GmxtQzgZ/OIP-1.jpg" alt="cartoons"></a>
+                <a href="/vidoes/MOANA Live Action.mp4"><img src="https://i.postimg.cc/nrr1JbJy/e-WYNMlg-Jms-Sk-Rr-Su-N6tza8-Bd9nw.jpg" alt="cartoons"></a>
+                <a href="/vidoes/Best of The Midnight Gospel.mp4"><img src="https://i.postimg.cc/MpfgRbqV/4c36e45dff0f59ab991fbfe24d3cc27e8fff0b88r1-960-1440v2-hq.jpg" alt="cartoons"></a>
+                <a href="/vidoes/Stretch Armstrong.mp4"></a><img src="https://i.postimg.cc/qMV1SVTh/R-2.jpg" alt="cartoons">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
